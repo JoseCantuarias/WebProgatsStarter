@@ -2,6 +2,8 @@
   --primary: #f2b366;
 }
 
+
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -33,4 +35,70 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 16px;
+}
+
+.hero {
+  height: 50vh;
+  background-image: url("img/mobileCat.jpg");
+  background-size: cover;
+  font-size: 5vw;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px black;
+}
+
+.members--name1{
+  background: url("img/patricia.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.members--name2{
+  background: url("img/veronica.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.members--name3{
+  background: url("img/edurne.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.members--card {
+  background: url("img/pawns.jpg");
+  height: 200px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.members--role{
+
+}
+
+.members--title{
+  
 }
